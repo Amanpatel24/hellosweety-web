@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Raleway:wght@200&family=Roboto+Mono:wght@200&family=Sometype+Mono:wght@500&display=swap');
+
+  
+*{
+    margin: 0;
+    padding: 0;
+    font-family: ' League spartan', sans-serif;
+    box-sizing: border-box;
+
+
+}
+.body{
+    width: 100%;
+}
+
+
+
+.navbar {
+    
+    height: 70px;
+    background-color: rgb(16, 175, 154);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    
+}
+.nav-logo {
+    height: 100px 50px;
+    width: 100px;
+
+}
+.logo img{ 
+    
+    background-size: cover;
+    height: 67px;
+    width: 100%;
+    border-radius: 13px;
+    
+
+}
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/** box2 **/
+.add-first {
+     color: rgb(81, 75, 75);
+     font-size: 0.90rem;
+     margin-left: 15px;
+}
+.add-sec {
+    font-size: 1.05rem;
+
+
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.nav-list {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.nav-list li {
+    list-style: none;
+    padding: 21px 14px;
+
+}
+
+.nav-list li  a{
+    text-decoration: none;
+    color: #fcfbfb;
+    font-weight: 500;
+    font-size: 0.95rem;
+    text-align: center;
+    
+
+}
+
+
+
+.nav-list li  a:hover,
+.nav-list li  a:active {
+    color: goldenrod;
+}
+
+
+
+
+#home { 
+    display: flex;
+    flex-direction: column;
+    padding: 3px 350px;
+    height: 560px ;
+    justify-content:center ;
+    align-items: center;
+
+}
+#home::before{
+
+    content: "";
+    position: relative;
+    background: url("baby2.avif") no-repeat center center/cover;
+    height: 69%;
+    width: 95%;
+    z-index: -1;
+    opacity: 0.92;
+    border: 2px solid rgb(18, 154, 184);
+    border-radius:10px ;
+    
+    
+    
+    
+
+}
+
+
+
+
+#home h1{
+    color:rgb(129, 207, 134);
+    text-align:center;
+    font-size: 1.8rem;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Playpen Sans';
+   
+}
+#home h4{
+    
+    color: skyblue;
+    text-align:center;
+    font-size: 1.8rem;
+    font-family: 'League Spartan', sans-serif;
+font-family: 'Playpen Sans';
+}
+
+
+/* services section */
+
+#services{
+    margin: 34px;
+    display: flex;
+}
+
+#sevices .box img{
+    height: 100px;
+}
+
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+.h-secondary {
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.center {
+    text-align: center;
+
+}
+
+#product-1 {
+    text-align: center;
+    font-size:1.20rem ;
+}
+
+
+    
+
+
+#product-1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    padding: 35px 50px;
+}
+
+ .pro {
+    display: none;
+    height: 30%;
+    width: 13%;
+    min-width: 250px;
+    padding:20px 20px ;
+    border:1px solid #8cefa5;
+    border-radius: 15px;
+    cursor:pointer;
+    box-shadow: 22px 27px 33px rgba(0, 0, 0, 0.2);
+    margin:21px 30px ;
+    transition: 0.2s ease;
+    position: relative;
+}
+.pro:nth-child(1){
+    display: block;
+
+}
+.pro:nth-child(2){
+    display: block;
+
+}
+ .pro:nth-child(3){
+    display: block;
+
+}
+  .pro:nth-child(4){
+    display: block;
+
+}
+#product-1 .section-p1 h{
+    color: #8cefa5;
+    text-align: left;
+    
+    line-height: 1.33;
+}
+#product-1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+#product-1 .pro img{
+    width: 65%;
+    border-radius: 24px;
+
+    
+}
+#product-1 h2{
+    padding: 33px;
+    font-size: 34px;
+    color: black;
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+
+#product-1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+
+}
+
+#product-1 .pro .des span {
+    color: rgb(12, 161, 114);
+    font-size: 12px;
+
+}
+#product-1 .pro .des h5 {
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+#product-1 .pro .des i {
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+
+
+#product-1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color:rgb(12, 161, 114);
+}
+#product-1 .pro .des h{
+   
+    color: black;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+   
+}
+.btncontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    padding: 9px;
+    font-size: 10px;
+    background-color:  #0a7425;;
+    color: #fcfbfb;
+}
+
+.secrigh {
+    padding: 53px;
+    height: 458px;
+    display: flex;
+    justify-content: center;
+    font-weight: 1.2rem;
+    border-style: ridge;
+    
+
+}
+.wrapper{
+   
+    height: 252px;
+   
+ 
+    
+}
+
+
+.wrapper img{
+  max-width: 320px;
+  justify-content: center;
+  border-radius: 24px;
+  flex-wrap: wrap;
+  
+ 
+
+
+}
+.adarsh img{
+    max-width: 470px;
+    height: auto;
+   
+
+}
+.adarsh{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+    
+.secleft{
+    
+     width: 100%;
+     padding: 78px 0px;
+
+
+
+   
+    margin: 0 auto;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    max-width: 70%;
+    justify-content: space-around;
+    border-style: none;
+    
+}
+.para{
+    font-family: 'League Spartan', sans-serif;
+    width: 550px; ;
+
+}
+.para p{
+    line-height: 15px;
+    margin-bottom: 153px;
+    letter-spacing: 1px;
+   
+    font-size: 18px;
+    font-family: 'League Spartan', sans-serif;
+
+
+}
+.para h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+
+footer{
+   background-color:  rgb(113, 159, 161);
+    height: 202px;
+    padding: 19px;
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    font-family: 'League Spartan', sans-serif;
+    
+
+}
+
+.follow {
+    padding: 2px 76px;
+
+}
+
+/*media section*/
+
+@media (max-width:799px){
+
+    #navbar{
+        display: flex;
+        
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 300px;
+    }
+    .nav-list {
+        display: flex;
+        width: 75%;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-list li {
+        list-style: none;
+        padding: 32px 6px;
+}
+#home{
+    height: 90vh;
+    padding: 0 90px;
+    background-position: top 30% right 30%;
+
+
+
+
+}
+#product-1 .pro-container{
+    
+
+    justify-content: center;
+
+
+}
+.pro{
+    margin: 13px;
+
+}
+
+.secrigh {
+    
+    width: 100%;
+    height: 88vh;
+}
+
+.wrapper img{
+    max-width: 190px;
+    justify-content: center;
+    border-radius: 24px;
+    flex-wrap: wrap;
+    
+
+}
+.secleft{
+    height: 90vh;
+    
+    display: flex;
+
+max-width: 100%;
+justify-content: space-around;
+border-style: none;
+
+}
+ 
+
+ .adarsh img{
+    width: 100%;
+        max-width: 387px;
+        height: auto;
+       
+    
+    }
+    .para p{
+        margin-bottom: 16px;
+    
+        width: 100%;
+    
+}
+.para h1{
+    font-size: 20px;
+    
+    
+    
+}
+
+}
+
+@media (max-width:477px) {
+    #navbar{
+        padding: 10px 30px;
+    }
+    #home{
+        height: 46vh;
+        
+        padding: 0 20px;
+        background-position: 55%;
+    }
+    #home h1{
+        font-size: 23px;
+    }
+    #home h4{
+        font-size: 18px;
+    }
+
+    
+    .pro{
+        width: 70%;
+    
+    }  
+
+    #product-1 h2{
+        
+        font-size: 20px;
+}
+.secrigh {
+    width: 100%;
+    height: 61vh;
+}
+
+
+
+.wrapper img{
+    max-width: 48%;
+}
+.wrapper{
+    height: auto;
+}
+
+.secleft{
+    height: 61vh;
+    
+    display: flex;
+
+max-width: 100%;
+justify-content: space-around;
+
+}
+
+.adarsh img{
+    width: 100%;
+        max-width: 72%;
+        
+       
+    
+ 
+
+}
+.adarsh{
+    width: 80%;
+}
+
+.para{
+    width: 100%;
+}
+    .para p{
+        margin-bottom: 16px;
+    
+        width: 203px;
+    
+}
+.para h1{
+    font-size: 20px;
+    
+    
+    
+}
+
+}
+
+
